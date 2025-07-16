@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Jost", sans-serif;
+    padding: 0;
+    margin: 0 ;
+}
+.logo{
+    width: 170px;
+}
+nav{
+    background-color: white;
+    padding: 15px 0px 35px 0px;
+    position: fixed;
+    padding: 30px;
+    font-size: 40px !important;
+    z-index: 100;
+}
+nav span{
+    background-color: #dd3d53;
+    color: white;
+    padding: 20px;
+    font-size: 30px !important;
+    border-radius: 4px;
+}
+ #loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100%;
+      background: #fff;
+      z-index: 9999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    #loader img {
+      width: 200px;
+      max-width: 80%;
+      position: relative;
+    }
+    #main-content {
+      display: none;
+    }
+.hero{
+    width: 100%  ;
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px !important;
+}
+.swiper{
+    margin-top: 100px;
+}
+.pero{
+    width: 100%;
+    background-image: url(./images/last.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.mio{
+    width: 100%;
+    background-image: url(./images/save.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pat-wrapper {
+    position: relative;
+}
+.pat {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #ff4d4d;
+    border-radius: 60% 40% 50% 70% / 60% 30% 70% 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px !important;
+    z-index: 2;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.pat h2{
+    font-size: 60px;
+    font-weight: 600;
+}
+.pat-bg {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 420px;
+    height: 420px;
+    background-color: rgba(255, 77, 77, 0.3);
+    border-radius: 60% 40% 50% 70% / 60% 30% 70% 40%;
+    z-index: 1;
+    animation: moveSide 4s ease-in-out infinite alternate;
+}
+.pat button,.pero button,.mio button{
+    padding: 10px 30px;
+    background-color: white;
+    color: #dd3d53;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.jah h1{
+    font-size: 70px;
+}
+.section{
+    padding: 70px 0px 0px 0px;
+}
+.yaa{
+    width: 100px;
+    height: 5px;
+    background-color: #dd3d53;
+    border-radius: 10px 0px 0px 4px;
+}
+.way{
+    width: 15px;
+    height: 13px;
+    background-color: #2d3239;
+    border-radius: 1px 0px 1px 4px;
+}
+.hol{
+    width: 120px;
+    height: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2d3239;
+    border-radius: 3px;
+}
+.hol i{
+    font-size: 30px;
+}
+.for i{
+    font-size: 25px;
+}
+.nev{
+    border:2px solid #ee3131;
+    padding: 0px !important;
+}
+.for p{
+    font-weight: bold;
+}
+.kan {
+    position: relative;
+    width: 100%;
+    background: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px !important;
+    overflow: hidden; 
+}
+.kan::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7); 
+    z-index: 1;
+    border-radius: 10px;
+}
+.kan > * {
+    position: relative;
+    z-index: 2;
+}
+.shi{
+    background-color: #ee3131;
+    margin-bottom: -1px;
+    padding: 12px 20px 7px 20px;
+    text-transform: uppercase;
+}
+.fii{
+    padding:20px 20px 7px 20px;   
+}
+.lal p{
+    color: #948494;
+}
+.offcanvas-body a{
+    text-decoration: none;
+    color: #2d3239;
+    font-size: 18px;
+}
+.pero h1,.mio h1{
+    font-size: 90px;
+    width: 500px;
+    line-height: 110px;
+}
+@keyframes moveSide {
+    0% {
+        transform: translateX(-10px);
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: translateX(60px);
+        transform: rotate(360deg);
+    }
+}
+.line{
+    width: 80%;
+    height: 1px;
+    background-color: white;
+}
+.lin{
+    width: 80px;
+    height: 3px;
+    background-color: #dd3d53;
+}
+.spa h4:hover{
+    color: #ee3131;
+    transition: .3s ease;
+}
+.spa button,.rar button{
+    padding: 10px 30px;
+    background-color:  #dd3d53;
+    color:white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.card-style {
+  background: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; 
+  overflow: hidden;  
+}
+.rar h2{
+    line-height: 43px;
+    font-size: 37px;
+}
+.rar h2 span{
+    color: #ee3131;
+}
+.bee{
+    background: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px; 
+  overflow: hidden;  
+}
+.hie{
+    width: 2px ;
+    height: 55px;
+    background-color: #d8d8d8;
+}
+.hun p{
+    padding-top: 15px;
+}
+.filter-button h5.active {
+    color: red;
+}
+.enn {
+    display: none;
+}
+.enn.show {
+     display: block;
+}
+.dems{
+    margin-top: 30px;
+}
+@media (max-width:763px) {
+    .pero h1,.mio h1{
+        font-size: 70px;
+        width: 100% !important;
+    }
+    .dem{
+        margin-top: 30px;
+    }
+}
